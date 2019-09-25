@@ -14,7 +14,7 @@ public protocol ListProtocol {
     
     associatedtype E;
     
-    func clear();
+    mutating func clear();
     
     /// 元数 数量，默认返回 0
     var size:Int{get};
@@ -32,23 +32,32 @@ public protocol ListProtocol {
     /// 尾部追加
    /// - Parameter element
    /// 以提供默认实现：add(Index: size, element: element)
-    func add(element:E);
+    mutating  func add(element:E);
     
     func get(index:Int)->E?;
     
-    func set(index:Int,element:E)->E?
     
-    func add(Index:Int,element:E);
+    /// 重置某一位置的元数
+    /// - Parameter index: 索引 从 0 开始
+    /// - Parameter element
+     @discardableResult
+    mutating func set(index:Int,element:E)->E?
+    
+    /// 添加元数
+    /// - Parameter index: 索引 从 0 开始
+    /// - Parameter element
+    mutating  func add(index:Int,element:E);
     
     /// 删除index位置的元素,
     /// - Parameter Index
     ///
-    func remove(Index:Int)->E?
+    @discardableResult
+    mutating func remove(index:Int)->E?
     
     /// 查看元素索引, 找不到返回 nil
     /// - Parameter element
     /// - Returns  索引值, 若找不到返回 nil
-    func indexOf(element:E)->Int?
+    func indexOf(element:E)  ->Int?
 }
 
 
@@ -67,7 +76,7 @@ public extension ListProtocol {
     }
     
    
-    func add(element:E) {
-        add(Index: size, element: element)
+    mutating func  add(element:E) {
+        add(index: size, element: element)
     }
 }
