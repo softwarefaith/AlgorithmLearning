@@ -12,6 +12,7 @@
 		2E141EC4233B4A6B00B56AF9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */; };
 		2E141EC6233B4C3700B56AF9 /* ListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EC5233B4C3700B56AF9 /* ListProtocol.swift */; };
 		2E141EC8233B5ECB00B56AF9 /* SingleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EC7233B5ECB00B56AF9 /* SingleLinkedList.swift */; };
+		2E141ECA233B7C3F00B56AF9 /* SingleLinkedListTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EC9233B7C3F00B56AF9 /* SingleLinkedListTestCase.swift */; };
 		2E9AC2562338747200C76976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AC2552338747200C76976 /* AppDelegate.swift */; };
 		2E9AC2582338747200C76976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AC2572338747200C76976 /* SceneDelegate.swift */; };
 		2E9AC25A2338747200C76976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AC2592338747200C76976 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 		2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		2E141EC5233B4C3700B56AF9 /* ListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocol.swift; sourceTree = "<group>"; };
 		2E141EC7233B5ECB00B56AF9 /* SingleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkedList.swift; sourceTree = "<group>"; };
+		2E141EC9233B7C3F00B56AF9 /* SingleLinkedListTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkedListTestCase.swift; sourceTree = "<group>"; };
 		2E9AC2522338747200C76976 /* Swift-Alt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Alt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9AC2552338747200C76976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E9AC2572338747200C76976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				2E141EBB233B492000B56AF9 /* Swift_AltTests.swift */,
 				2E141EBD233B492000B56AF9 /* Info.plist */,
+				2E141EC9233B7C3F00B56AF9 /* SingleLinkedListTestCase.swift */,
 			);
 			path = "Swift-AltTests";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E141ECA233B7C3F00B56AF9 /* SingleLinkedListTestCase.swift in Sources */,
 				2E141EBC233B492000B56AF9 /* Swift_AltTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

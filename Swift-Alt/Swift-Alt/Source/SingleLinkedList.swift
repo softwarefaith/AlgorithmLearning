@@ -40,8 +40,10 @@ extension SingleLinkedList:ListProtocol {
     public typealias E = Element
 
     public mutating func clear() {
+        //这里不需要遍历 将每一个nodez设置为 nil
         size = 0
         first = nil
+        first?.next = nil
     }
 
     public func get(index: Int) -> Element? {
@@ -121,7 +123,7 @@ extension SingleLinkedList {
         guard self.checkValidRange(index) else {
             return nil
         }
-        var node = first?.next
+        var node = first
         var i = 0
         while i < index {
             node = node?.next
@@ -132,9 +134,9 @@ extension SingleLinkedList {
     
     func checkValidRange(_ index:Int)->Bool{
         if(index<0 || index>size){
-            return true
+            return false
         }
-        return false
+        return true
     }
 }
 
@@ -150,10 +152,11 @@ extension SingleLinkedList:CustomStringConvertible  {
 
 extension SingleLinkedList:CustomDebugStringConvertible {
     public var debugDescription: String {
-        guard size == 0 else{
+        print("-----log begin-----")
+        guard let f = first ,size != 0 else{
                    return "空"
-               }
-        return "SingleLinkedList \(first!.debugDescription)"
+        }
+        return "SingleLinkedList: \(first!.debugDescription)"
     }
 }
 
