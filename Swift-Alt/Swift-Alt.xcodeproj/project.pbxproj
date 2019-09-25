@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E141EB4233B478000B56AF9 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EB3233B478000B56AF9 /* Node.swift */; };
+		2E141EBC233B492000B56AF9 /* Swift_AltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EBB233B492000B56AF9 /* Swift_AltTests.swift */; };
+		2E141EC4233B4A6B00B56AF9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */; };
+		2E141EC6233B4C3700B56AF9 /* ListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EC5233B4C3700B56AF9 /* ListProtocol.swift */; };
+		2E9AC2562338747200C76976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AC2552338747200C76976 /* AppDelegate.swift */; };
+		2E9AC2582338747200C76976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AC2572338747200C76976 /* SceneDelegate.swift */; };
+		2E9AC25A2338747200C76976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9AC2592338747200C76976 /* ViewController.swift */; };
+		2E9AC25D2338747200C76976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9AC25B2338747200C76976 /* Main.storyboard */; };
+		2E9AC25F2338747500C76976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9AC25E2338747500C76976 /* Assets.xcassets */; };
+		2E9AC2622338747500C76976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9AC2602338747500C76976 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E141EBE233B492000B56AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E9AC24A2338747200C76976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E9AC2512338747200C76976;
+			remoteInfo = "Swift-Alt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E141EB3233B478000B56AF9 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		2E141EB9233B492000B56AF9 /* Swift-AltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-AltTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E141EBB233B492000B56AF9 /* Swift_AltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AltTests.swift; sourceTree = "<group>"; };
+		2E141EBD233B492000B56AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		2E141EC5233B4C3700B56AF9 /* ListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocol.swift; sourceTree = "<group>"; };
+		2E9AC2522338747200C76976 /* Swift-Alt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Alt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9AC2552338747200C76976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E9AC2572338747200C76976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E9AC2592338747200C76976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E9AC25C2338747200C76976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E9AC25E2338747500C76976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E9AC2612338747500C76976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E9AC2632338747500C76976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9AC2692338749600C76976 /* Alt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Alt.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E141EB6233B492000B56AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9AC24F2338747200C76976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E141EBA233B492000B56AF9 /* Swift-AltTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E141EBB233B492000B56AF9 /* Swift_AltTests.swift */,
+				2E141EBD233B492000B56AF9 /* Info.plist */,
+			);
+			path = "Swift-AltTests";
+			sourceTree = "<group>";
+		};
+		2E9AC2492338747200C76976 = {
+			isa = PBXGroup;
+			children = (
+				2E9AC2692338749600C76976 /* Alt.playground */,
+				2E9AC2542338747200C76976 /* Swift-Alt */,
+				2E141EBA233B492000B56AF9 /* Swift-AltTests */,
+				2E9AC2532338747200C76976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E9AC2532338747200C76976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E9AC2522338747200C76976 /* Swift-Alt.app */,
+				2E141EB9233B492000B56AF9 /* Swift-AltTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E9AC2542338747200C76976 /* Swift-Alt */ = {
+			isa = PBXGroup;
+			children = (
+				2E9AC26A2338751700C76976 /* Source */,
+				2E9AC2552338747200C76976 /* AppDelegate.swift */,
+				2E9AC2572338747200C76976 /* SceneDelegate.swift */,
+				2E9AC2592338747200C76976 /* ViewController.swift */,
+				2E9AC25B2338747200C76976 /* Main.storyboard */,
+				2E9AC25E2338747500C76976 /* Assets.xcassets */,
+				2E9AC2602338747500C76976 /* LaunchScreen.storyboard */,
+				2E9AC2632338747500C76976 /* Info.plist */,
+			);
+			path = "Swift-Alt";
+			sourceTree = "<group>";
+		};
+		2E9AC26A2338751700C76976 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2E141EB3233B478000B56AF9 /* Node.swift */,
+				2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */,
+				2E141EC5233B4C3700B56AF9 /* ListProtocol.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E141EB8233B492000B56AF9 /* Swift-AltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E141EC0233B492000B56AF9 /* Build configuration list for PBXNativeTarget "Swift-AltTests" */;
+			buildPhases = (
+				2E141EB5233B492000B56AF9 /* Sources */,
+				2E141EB6233B492000B56AF9 /* Frameworks */,
+				2E141EB7233B492000B56AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E141EBF233B492000B56AF9 /* PBXTargetDependency */,
+			);
+			name = "Swift-AltTests";
+			productName = "Swift-AltTests";
+			productReference = 2E141EB9233B492000B56AF9 /* Swift-AltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E9AC2512338747200C76976 /* Swift-Alt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9AC2662338747500C76976 /* Build configuration list for PBXNativeTarget "Swift-Alt" */;
+			buildPhases = (
+				2E9AC24E2338747200C76976 /* Sources */,
+				2E9AC24F2338747200C76976 /* Frameworks */,
+				2E9AC2502338747200C76976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Alt";
+			productName = "Swift-Alt";
+			productReference = 2E9AC2522338747200C76976 /* Swift-Alt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E9AC24A2338747200C76976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "蔡杰";
+				TargetAttributes = {
+					2E141EB8233B492000B56AF9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 2E9AC2512338747200C76976;
+					};
+					2E9AC2512338747200C76976 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 2E9AC24D2338747200C76976 /* Build configuration list for PBXProject "Swift-Alt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E9AC2492338747200C76976;
+			productRefGroup = 2E9AC2532338747200C76976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E9AC2512338747200C76976 /* Swift-Alt */,
+				2E141EB8233B492000B56AF9 /* Swift-AltTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E141EB7233B492000B56AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9AC2502338747200C76976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9AC2622338747500C76976 /* LaunchScreen.storyboard in Resources */,
+				2E9AC25F2338747500C76976 /* Assets.xcassets in Resources */,
+				2E9AC25D2338747200C76976 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E141EB5233B492000B56AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E141EBC233B492000B56AF9 /* Swift_AltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9AC24E2338747200C76976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9AC25A2338747200C76976 /* ViewController.swift in Sources */,
+				2E9AC2562338747200C76976 /* AppDelegate.swift in Sources */,
+				2E141EC4233B4A6B00B56AF9 /* LinkedList.swift in Sources */,
+				2E141EC6233B4C3700B56AF9 /* ListProtocol.swift in Sources */,
+				2E9AC2582338747200C76976 /* SceneDelegate.swift in Sources */,
+				2E141EB4233B478000B56AF9 /* Node.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E141EBF233B492000B56AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E9AC2512338747200C76976 /* Swift-Alt */;
+			targetProxy = 2E141EBE233B492000B56AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E9AC25B2338747200C76976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9AC25C2338747200C76976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9AC2602338747500C76976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9AC2612338747500C76976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E141EC1233B492000B56AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-AltTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allan.Swift-AltTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Alt.app/Swift-Alt";
+			};
+			name = Debug;
+		};
+		2E141EC2233B492000B56AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-AltTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allan.Swift-AltTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Alt.app/Swift-Alt";
+			};
+			name = Release;
+		};
+		2E9AC2642338747500C76976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E9AC2652338747500C76976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E9AC2672338747500C76976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Alt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allan.Swift-Alt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E9AC2682338747500C76976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Alt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allan.Swift-Alt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E141EC0233B492000B56AF9 /* Build configuration list for PBXNativeTarget "Swift-AltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E141EC1233B492000B56AF9 /* Debug */,
+				2E141EC2233B492000B56AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9AC24D2338747200C76976 /* Build configuration list for PBXProject "Swift-Alt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9AC2642338747500C76976 /* Debug */,
+				2E9AC2652338747500C76976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9AC2662338747500C76976 /* Build configuration list for PBXNativeTarget "Swift-Alt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9AC2672338747500C76976 /* Debug */,
+				2E9AC2682338747500C76976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E9AC24A2338747200C76976 /* Project object */;
+}
