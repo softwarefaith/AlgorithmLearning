@@ -88,7 +88,7 @@ extension SingleLinkedList:ListProtocol {
         if(index == 0){
             first = removeNode?.next
         } else {
-            let preNode = getNode(index)
+            let preNode = getNode(index - 1)
             removeNode = preNode?.next
             preNode?.next = removeNode?.next
         }
@@ -140,6 +140,10 @@ extension SingleLinkedList {
     }
 }
 
+////MARK:
+//extension SingleLinkedList:Collection {
+//
+//}
 
 //MARK: Debug
 
@@ -153,7 +157,7 @@ extension SingleLinkedList:CustomStringConvertible  {
 extension SingleLinkedList:CustomDebugStringConvertible {
     public var debugDescription: String {
         print("-----log begin-----")
-        guard let f = first ,size != 0 else{
+        guard let _ = first ,size != 0 else{
                    return "空"
         }
         return "SingleLinkedList: \(first!.debugDescription)"
