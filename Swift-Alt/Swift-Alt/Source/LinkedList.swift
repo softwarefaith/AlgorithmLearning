@@ -9,6 +9,7 @@
 import Foundation
 
 
+/// 双列表
 public struct LinkedList<Element:Equatable>{
     
     public final class Node<Value>{
@@ -24,8 +25,6 @@ public struct LinkedList<Element:Equatable>{
         deinit {
             print("Node deinit \(self.description)")
         }
-        
-        
     }
 
     public var size:Int = 0
@@ -43,10 +42,6 @@ extension LinkedList:ListProtocol {
     public typealias E = Element
 
     public func clear() {
-        
-    }
-    
-    public func isEmpty() {
         
     }
     

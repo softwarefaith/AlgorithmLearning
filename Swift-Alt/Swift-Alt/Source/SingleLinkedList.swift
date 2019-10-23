@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+/// 单列表
 public struct SingleLinkedList<Element:Equatable>{
     
     final class Node<Value:Equatable>:NodeProtocol{
@@ -35,6 +37,7 @@ public struct SingleLinkedList<Element:Equatable>{
 }
 
 // MARK: ListProtocol
+
 extension SingleLinkedList:ListProtocol {
     
     public typealias E = Element

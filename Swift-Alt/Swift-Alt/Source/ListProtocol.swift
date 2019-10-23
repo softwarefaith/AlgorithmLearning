@@ -10,19 +10,32 @@ import Foundation
 
 let ELEMENT_NOT_FOUND = -1
 
-public protocol ListProtocol {
+
+public protocol CountProtocol {
+
+      /// 元数 数量，默认返回 0
+     var size:Int{get};
+    /// 判断是否为空
+    /// 默认实现：size == 0
+     func isEmpty()->Bool;
+}
+
+extension CountProtocol {
+    var size:Int {
+           return 0;
+    }
+    
+    public func isEmpty()->Bool {
+           return size == 0
+       }
+       
+}
+
+public protocol ListProtocol:CountProtocol{
     
     associatedtype E;
     
     mutating func clear();
-    
-    /// 元数 数量，默认返回 0
-    var size:Int{get};
-    
-    /// 判断是否为空
-    /// 默认实现：size == 0
-    func isEmpty()->Bool;
-    
     
     /// 是否包含这个元素
     /// - Parameter element
@@ -62,21 +75,12 @@ public protocol ListProtocol {
 
 
 public extension ListProtocol {
-    
-    var size:Int {
-        return 0;
-    }
-    
+
     func contains(element:E)-> Bool{
        return indexOf(element: element) != nil
     }
     
-    func isEmpty()->Bool {
-        return size == 0
-    }
-    
-   
-    mutating func  add(element:E) {
+    mutating func add(element:E) {
         add(index: size, element: element)
     }
 }
