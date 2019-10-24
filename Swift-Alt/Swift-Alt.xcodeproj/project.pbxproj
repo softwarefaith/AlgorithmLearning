@@ -19,6 +19,7 @@
 		2E9AC25D2338747200C76976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9AC25B2338747200C76976 /* Main.storyboard */; };
 		2E9AC25F2338747500C76976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9AC25E2338747500C76976 /* Assets.xcassets */; };
 		2E9AC2622338747500C76976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9AC2602338747500C76976 /* LaunchScreen.storyboard */; };
+		2EDC6D14236186A900A318EF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC6D13236186A900A318EF /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2E9AC2612338747500C76976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E9AC2632338747500C76976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E9AC2692338749600C76976 /* Alt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Alt.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2EDC6D13236186A900A318EF /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */,
 				2E141EC5233B4C3700B56AF9 /* ListProtocol.swift */,
 				2E141EC7233B5ECB00B56AF9 /* SingleLinkedList.swift */,
+				2EDC6D13236186A900A318EF /* Stack.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				2E9AC2562338747200C76976 /* AppDelegate.swift in Sources */,
 				2E141EC8233B5ECB00B56AF9 /* SingleLinkedList.swift in Sources */,
 				2E141EC4233B4A6B00B56AF9 /* LinkedList.swift in Sources */,
+				2EDC6D14236186A900A318EF /* Stack.swift in Sources */,
 				2E141EC6233B4C3700B56AF9 /* ListProtocol.swift in Sources */,
 				2E9AC2582338747200C76976 /* SceneDelegate.swift in Sources */,
 				2E141EB4233B478000B56AF9 /* NodeProtocol.swift in Sources */,
