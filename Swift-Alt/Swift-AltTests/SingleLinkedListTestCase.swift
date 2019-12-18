@@ -2,8 +2,8 @@
 //  SingleLinkedListTestCase.swift
 //  Swift-AltTests
 //
-//  Created by 蔡杰 on 2019/9/25.
-//  Copyright © 2019 蔡杰. All rights reserved.
+//  Created by CaiCai on 2019/9/25.
+//  Copyright © 2019 CaiCai. All rights reserved.
 //
 
 import XCTest

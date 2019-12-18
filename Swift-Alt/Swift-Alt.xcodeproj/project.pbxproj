@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E027F7323A9F6F500CD0E13 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E027F7223A9F6F500CD0E13 /* BubbleSort.swift */; };
+		2E027F7523AA0B3100CD0E13 /* BubbleSortTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E027F7423AA0B3100CD0E13 /* BubbleSortTestCase.swift */; };
 		2E141EB4233B478000B56AF9 /* NodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EB3233B478000B56AF9 /* NodeProtocol.swift */; };
 		2E141EBC233B492000B56AF9 /* Swift_AltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EBB233B492000B56AF9 /* Swift_AltTests.swift */; };
 		2E141EC4233B4A6B00B56AF9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E027F7223A9F6F500CD0E13 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		2E027F7423AA0B3100CD0E13 /* BubbleSortTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTestCase.swift; sourceTree = "<group>"; };
 		2E141EB3233B478000B56AF9 /* NodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeProtocol.swift; sourceTree = "<group>"; };
 		2E141EB9233B492000B56AF9 /* Swift-AltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-AltTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E141EBB233B492000B56AF9 /* Swift_AltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AltTests.swift; sourceTree = "<group>"; };
@@ -73,9 +77,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E027F7123A9F6C100CD0E13 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				2E027F7223A9F6F500CD0E13 /* BubbleSort.swift */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
 		2E141EBA233B492000B56AF9 /* Swift-AltTests */ = {
 			isa = PBXGroup;
 			children = (
+				2E027F7423AA0B3100CD0E13 /* BubbleSortTestCase.swift */,
 				2E141EBB233B492000B56AF9 /* Swift_AltTests.swift */,
 				2E141EBD233B492000B56AF9 /* Info.plist */,
 				2E141EC9233B7C3F00B56AF9 /* SingleLinkedListTestCase.swift */,
@@ -120,6 +133,7 @@
 		2E9AC26A2338751700C76976 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2E027F7123A9F6C100CD0E13 /* sort */,
 				2E141EB3233B478000B56AF9 /* NodeProtocol.swift */,
 				2E141EC3233B4A6B00B56AF9 /* LinkedList.swift */,
 				2E141EC5233B4C3700B56AF9 /* ListProtocol.swift */,
@@ -231,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E027F7523AA0B3100CD0E13 /* BubbleSortTestCase.swift in Sources */,
 				2E141ECA233B7C3F00B56AF9 /* SingleLinkedListTestCase.swift in Sources */,
 				2E141EBC233B492000B56AF9 /* Swift_AltTests.swift in Sources */,
 			);
@@ -247,6 +262,7 @@
 				2EDC6D14236186A900A318EF /* Stack.swift in Sources */,
 				2E141EC6233B4C3700B56AF9 /* ListProtocol.swift in Sources */,
 				2E9AC2582338747200C76976 /* SceneDelegate.swift in Sources */,
+				2E027F7323A9F6F500CD0E13 /* BubbleSort.swift in Sources */,
 				2EDC6D16236190C400A318EF /* Queue.swift in Sources */,
 				2E141EB4233B478000B56AF9 /* NodeProtocol.swift in Sources */,
 			);
