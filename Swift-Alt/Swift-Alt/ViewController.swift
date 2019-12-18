@@ -14,8 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var array = [1,10,6,20,8]
-        bubbleSort(&array)
+        var array = Int.randomIntNumbers()
+        print("排序前-----")
+        print(array)
+        selectedSort(&array)
+        print("排序j后-----")
         print(array)
     
     }
