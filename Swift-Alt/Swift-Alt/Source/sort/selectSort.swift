@@ -7,7 +7,7 @@
 //
 
 import Foundation
-/// 选择排序
+/// 选择排序  -- 从小到大
 public func selectedSort<Element>(_ array: inout [Element]) where Element:Comparable {
     guard array.count >= 2 else {
         return

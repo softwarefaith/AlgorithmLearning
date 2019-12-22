@@ -23,7 +23,9 @@ class ViewController: UIViewController {
     
     }
 
-    
+    func heapRemove(){
+       // let array
+    }
     
   
 }

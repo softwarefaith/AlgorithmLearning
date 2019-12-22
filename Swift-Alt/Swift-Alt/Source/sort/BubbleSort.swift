@@ -8,7 +8,7 @@
 
 import Foundation
 
-/// 从小到大
+/// 冒泡排序 -- 从小到大
 public func bubbleSort2<Element>(_ array: inout [Element]) where Element:Comparable {
     
     guard array.count >= 2 else {
